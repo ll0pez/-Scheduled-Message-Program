@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style>
+  body {
+            background-color: linen;
+            text-align: center;
+            margin-left: auto; margin-right: auto; width: 10%; length: 100%;
+        }  
+  </style>
+  <h1>Daily Calander</h1>
+  <body>
+    <?php
+    $CurrentDay = date("l jS \of F Y") . "<br>";
+        echo "Today is ";  
+        echo $CurrentDay;
+    ?>
+  </body>
+</html>
